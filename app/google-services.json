@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "419467188091",
+    "project_id": "matafdb",
+    "storage_bucket": "matafdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419467188091:android:f483b2b17b860ae81ccfde",
+        "android_client_info": {
+          "package_name": "com.example.matafmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419467188091-k27dhlq2gvef91rfuchrpg4i8qef5d45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiUTu70zLdn1_GWdd3OWFFUVFurUeaOKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419467188091-k27dhlq2gvef91rfuchrpg4i8qef5d45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mataf Mobile</string>
+
+    <string-array name="names">
+        <item>PILIH</item>
+        <item>JOHOR</item>
+        <item>KEDAH</item>
+        <item>KELANTAN</item>
+        <item>MELAKA</item>
+        <item>NEGERI SEMBILAN</item>
+        <item>PAHANG</item>
+        <item>PENANG</item>
+        <item>PERAK</item>
+        <item>PERLIS</item>
+        <item>SABAH</item>
+        <item>SARAWAK</item>
+        <item>SELANGOR</item>
+        <item>TERENGGANU</item>
+        <item>KUALA LUMPUR</item>
+        <item>LABUAN</item>
+        <item>PUTRAJAYA</item>
+    </string-array>
+
+    <string-array name="jenis_ic">
+        <item>PILIH</item>
+        <item>IC BARU (MyKad)</item>
+        <item>IC LAMA</item>
+        <item>MyPR</item>
+        <item>MyKAS</item>
+    </string-array>
+
+    <string-array name="keturunan">
+        <item>PILIH</item>
+        <item>MELAYU</item>
+        <item>CINA</item>
+        <item>INDIA</item>
+        <item>LAIN-LAIN</item>
+    </string-array>
+
+</resources>

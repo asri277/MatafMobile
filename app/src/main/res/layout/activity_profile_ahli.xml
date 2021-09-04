@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_ahli">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="#F0FDCA"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profile_image_ahli"
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:src="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/fullName_Ahli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/profile_image_ahli"
+                android:includeFontPadding="false"
+                android:shadowColor="#888484"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/uType_ahli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fullName_Ahli"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/profile_image_ahli"
+                android:includeFontPadding="false"
+                android:text="AHLI"
+                android:textSize="10sp" />
+
+
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-50dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jenis_ahli_background"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/status_ahli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="AKTIF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/email_showAhli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/status_ahli"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noTel_ahli_H"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Nombor Telefon:"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/noTel_ahli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFF4BA"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/noPej_ahli_H"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="Nombor Pejabat:" />
+
+            <EditText
+                android:id="@+id/noPej_ahli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFF4BA"
+                android:editable="true"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/alamat_ahli_H"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Alamat:" />
+
+            <EditText
+                android:id="@+id/alamat_ahli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFF4BA"
+                android:editable="false"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/cmd_update_ahli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
