@@ -9,7 +9,7 @@ Objective:
 - track donation box collected information.
 
 Source Code: 
-- JavaScript
+- Java
 
 Development Software:
 - Android Studio 
